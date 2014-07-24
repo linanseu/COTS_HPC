@@ -42,7 +42,8 @@ class RICA {
              int num_fil, int filter_size, 
              int step_size, int block_size,
              int batch_size,
-             int num_pro, int process_id);
+             int num_pro_x, int num_pro_y,
+             int process_id);
 
         /**
          * @brief  free memory
